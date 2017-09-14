@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<parameter name="userName" value="18686848504" />
+	<parameter name="pwd" value="hunwater" />
+	<parameter name="picType1" value="相片" />
+	<parameter name="picType2" value="相机" />
+	<parameter name="text1" value="小可爱" />
+	<parameter name="text2" value="123abc" />
+	<parameter name="text3" value="知人，明势，达道" />
+	<parameter name="text4" value="123abc你我他！！！ 今天是个好天气。今天是个好天气。" />
+	
+  <test name="设置个人信息" preserve-order="true">
+    <classes>
+      <class name="com.execute.personalSetTest">
+      <methods>
+			
+					<!-- include name="meHeadPhoto" /> 
+					<include name="meHeadCamera" />
+					<include name="meName" />
+					<include name="meCity" />
+					-->
+					<include name="meSignature" />
+				</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+    <listeners>
+        <listener class-name="com.basic.RetryListener"/>
+    </listeners>
+</suite> <!-- Suite -->

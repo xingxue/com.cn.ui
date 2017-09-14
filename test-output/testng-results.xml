@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="152434" started-at="2017-07-24T09:37:41Z" finished-at="2017-07-24T09:40:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="152434" started-at="2017-07-24T09:37:41Z" finished-at="2017-07-24T09:40:13Z">
+      <class name="com.execute.LoginTest1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.execute.LoginTest1@42d8062c]" name="beforeClass" is-config="true" duration-ms="25396" started-at="2017-07-24T17:37:41Z" finished-at="2017-07-24T17:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginByTab(java.lang.String, java.lang.String)[pri:0, instance:com.execute.LoginTest1@42d8062c]" name="loginByTab" duration-ms="29402" started-at="2017-07-24T17:38:06Z" description="通过我的tab登录" finished-at="2017-07-24T17:38:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18686848504]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hunwater]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByTab -->
+        <test-method status="PASS" signature="loginByPublish(java.lang.String, java.lang.String)[pri:0, instance:com.execute.LoginTest1@42d8062c]" name="loginByPublish" duration-ms="43429" started-at="2017-07-24T17:38:36Z" description="通过发布按钮登录" finished-at="2017-07-24T17:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18686848504]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hunwater]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByPublish -->
+        <test-method status="PASS" signature="loginByComment(java.lang.String, java.lang.String)[pri:0, instance:com.execute.LoginTest1@42d8062c]" name="loginByComment" duration-ms="43832" started-at="2017-07-24T17:39:19Z" description="通过评论按钮登录" finished-at="2017-07-24T17:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18686848504]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hunwater]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByComment -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.execute.LoginTest1@42d8062c]" name="afterClass" is-config="true" duration-ms="10329" started-at="2017-07-24T17:40:03Z" finished-at="2017-07-24T17:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.execute.LoginTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

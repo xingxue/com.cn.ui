@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="userName" value="18686848504"/>
+  <parameter name="pwd" value="hunwater"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.execute.LoginTest1">
+        <methods>
+          <include name="loginByTab" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.execute.LoginTest1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

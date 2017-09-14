@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<parameter name="userName" value="18686848504" />
+	<parameter name="pwd" value="hunwater" />
+	<parameter name="pwdError" value="123123123" />
+	<parameter name="name1" value="123abc" />
+	<test name="登陆功能" preserve-order="true">
+	
+		<classes>
+			<class name="com.execute.LoginTest">
+				<methods>
+				   <!--  <include name="loginByTab" />
+					<include name="loginByTabError" />
+					<include name="loginByTabNull" />
+					<include name="loginByPublish" />
+					<include name="loginByComment" />
+					<include name="loginByLike" />
+					<include name="loginByCommented" />
+					<include name="loginByCommentArticle" />
+					<include name="loginByCommentedArticle" />
+					<include name="loginByLikeArticle" /> -->
+					
+					
+					
+					<include name="loginByCommentedArticle" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<listeners>
+		<listener class-name="com.basic.RetryListener"/>
+	</listeners>
+
+</suite> <!-- Suite -->
+
+

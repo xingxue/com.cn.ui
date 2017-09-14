@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+
+	<page pageName="firstPage">
+		<!--首页 -->
+		<locator type="id" value="android:id/list">整列表</locator>
+		<locator type="id" value="com.paiba.app000004:id/rl_tab">顶端通栏</locator>
+		<locator type="id" value="com.paiba.app000004:id/im_search">搜索按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/tab_layout">分类栏</locator>
+		<locator type="id" value="com.paiba.app000004:id/fl">分类按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/iv_pic">轮播图</locator>
+		<locator type="id" value="com.paiba.app000004:id/ll_pics">首页列表</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_title">首页标题</locator>
+		<locator type="id" value="com.paiba.app000004:id/ll_no_net">首页异常</locator>
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.support.v7.app.ActionBar$e).index(2)">资本运作</locator>
+	</page>
+	<page pageName="articlePage">
+		<!--文章详情页面 -->
+
+		<locator type="id" value="android.webkit.WebView">web</locator>
+		<locator type="id" value="com.paiba.app000004:id/liuyan">web评论按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/rl_item">web评论列表</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_zan">web点赞按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/bt_dis_detail_pub">发送按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/ed_dis_detail">评论框</locator>
+	</page>
+	<page pageName="rankPage">
+		<!--状态栏排序页面 -->
+	</page>
+	<page pageName="searchPage">
+		<!--搜索页面 -->
+		<locator type="id" value="com.paiba.app000004:id/tv_search_2">阅读量从高到低</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_search_3">只看头条</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_search_4">一周前</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_search_5">两周前</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_search_6">一个月前</locator>
+		<locator type="id" value="com.paiba.app000004:id/original_list_title">搜索列表标题</locator>
+		<locator type="id" value="com.paiba.app000004:id/original_list_time">搜索列表时间</locator>
+		<locator type="id" value="com.paiba.app000004:id/original_list_read_num">搜索列表阅读数</locator>
+		<locator type="id" value="com.paiba.app000004:id/iv_navigation_left">搜索页面返回按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/et_search">搜索框</locator>
+	</page>
+
+
+	<page pageName="twoPage">
+		<!--文友圈页面 -->
+		<locator type="id"
+			value="com.paiba.app000004:id/iv_wenyou_titlebar_right">发布文友圈</locator>
+		<locator type="id" value="com.paiba.app000004:id/comment">评论按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/like">点赞按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/discuss_comment_list">评论列表</locator>
+	</page>
+	<page pageName="publishPage">
+		<!--发布页面 -->
+		<locator type="id" value="com.paiba.app000004:id/tv_titlebar_right">发布按钮</locator>
+	</page>
+
+
+	<page pageName="threePage">
+		<!--我的页面 -->
+		<locator type="id" value="com.paiba.app000004:id/iv_admin">我的头像</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_mine_name">我的用户名</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_mine_addr">我的地区</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_mine_des">我的签名</locator>
+		<locator type="id" value="com.paiba.app000004:id/pub">个人设置</locator>
+		<locator type="id" value="com.paiba.app000004:id/im_setting">设置</locator>
+		<locator type="id" value="com.paiba.app000004:id/image_item">设置头像大图</locator>
+	</page>
+	<page pageName="setPage">
+		<!--应用设置页面 -->
+		<locator type="id" value="com.paiba.app000004:id/ll_log_out">退出登录</locator>
+	</page>
+	<page pageName="meSetPage">
+		<!--个人信息设置页面 -->
+		<locator type="id" value="com.paiba.app000004:id/iv_avatar">设置头像</locator>
+		<locator type="id" value="com.paiba.app000004:id/et_nick">设置昵称</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_sex">设置性别</locator>
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.widget.CheckedTextView).index(0)">女</locator>
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.widget.CheckedTextView).index(1)">男</locator>
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.widget.CheckedTextView).index(2)">保密</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_birth">设置生日</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_city">设置地区</locator>
+		<locator type="id" value="com.paiba.app000004:id/id_province">设置省份</locator>
+		<locator type="id" value="com.paiba.app000004:id/id_city">设置城市</locator>
+		<locator type="id" value="android:id/button2">设置地区取消按钮</locator>
+		<locator type="id" value="android:id/button1">设置地区确定按钮</locator>
+		<locator type="id" value="com.paiba.app000004:id/et_sign">设置个人签名</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_word_count">设置个人签名数字</locator>
+        <locator type="id" value="com.paiba.app000004:id/tv_navigation_right">设置保存按钮</locator>
+	</page>
+	<page pageName="photograph">
+		<!--拍照和相片页面 -->
+		<locator type="id" value="com.paiba.app000004:id/iv_checked">相机</locator>
+		<locator type="id" value="com.paiba.app000004:id/pv">相片</locator>
+		<locator type="id" value="com.huawei.camera:id/shutter_button">相机按钮</locator>
+		<locator type="id" value="com.huawei.camera:id/btn_done">相机确认按钮</locator>
+		<locator type="id" value="android:id/alertTitle">是否允许调用摄像头标题</locator>
+		<locator type="id" value="com.huawei.systemmanager:id/btn_allow">允许调用摄像头</locator>
+	</page>
+
+
+	<page pageName="tab栏">
+		<!--tab栏 -->
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.widget.RelativeLayout).index(0).clickable(true).focusable(true)">tab首页</locator>
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.widget.RelativeLayout).index(1).clickable(true).focusable(true)">tab文友圈</locator>
+		<locator type="AndroidUIAutomator" value="new UiSelector().className(android.widget.RelativeLayout).index(2).clickable(true).focusable(true)">tab我的</locator>
+	</page>
+
+
+	<page pageName="loginPage">
+		<!--登录页面 -->
+		<locator type="id" value="com.paiba.app000004:id/et_mine_login_phone">手机号</locator>
+		<locator type="id" value="com.paiba.app000004:id/et_mine_login_pwd">密码</locator>
+		<locator type="id" value="com.paiba.app000004:id/btn_mine_login_phone">登录</locator>
+		<locator type="id" value="com.paiba.app000004:id/tv_mine_login_register">注册账号</locator>
+		<locator type="id"
+			value="com.paiba.app000004:id/tv_mine_login_forget_pwd">忘记密码</locator>
+		<locator type="id" value="com.paiba.app000004:id/iv_mine_login_avatar">微信</locator>
+	</page>
+	<page pageName="loginPageWeixin">
+		<locator type="id" value="com.tencent.mm:id/h7">返回按钮</locator>
+		<locator type="xpth"
+			value="//android.widget.LinearLayout[contains(@index,'1')]/android.widget.EditText[contains(@index,'1')]">微信账号</locator>
+		<locator type="xpth"
+			value="//android.widget.LinearLayout[contains(@index,'2')]/android.widget.EditText[contains(@index,'1')]">微信密码</locator>
+		<locator type="xpth"
+			value="//android.widget.LinearLayout/android.widget.Button[contains(@index,'3')]">微信登录</locator>
+	</page>
+	<page pageName="registerPage">
+		<!--注册页面 -->
+	</page>
+	<page pageName="forgetPasswordPage">
+		<!--忘记密码页面 -->
+	</page>
+
+	<page pageName="descriptionPage">
+		<!--详情页面 -->
+	</page>
+
+	<page pageName="mePage">
+		<!--我的页面 -->
+	</page>
+
+	<page pageName="taPage">
+		<!--ta的页面 -->
+	</page>
+
+	<page pageName="commonButton">
+		<!--通用按钮 -->
+		<locator type="id" value="com.paiba.app000004:id/iv_titlebar_back">返回按钮</locator>
+	</page>
+
+
+
+</map>

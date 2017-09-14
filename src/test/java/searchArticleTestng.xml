@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<parameter name="searchName1" value="阅读量从高到低" />
+	<parameter name="searchName2" value="只看头条" />
+	<parameter name="searchName3" value="一周前" />
+	<parameter name="searchName4" value="两周前" />
+	<parameter name="searchName5" value="一个月前" />
+	<parameter name="text1" value="1" />
+	<parameter name="text2" value="A" />
+	<parameter name="text3" value="我" />
+	<parameter name="text4" value="AB" />
+	<parameter name="text5" value="今天" />
+	<parameter name="text6" value="@" />
+	<parameter name="text7" value="123QAZwsx你我她  ！@#￥  ……" />
+	<parameter name="text8" value="" />
+	<parameter name="text9" value="😭 " />
+	<parameter name="text10" value="1234567890" />
+
+
+	<test name="搜索功能" preserve-order="true">
+		<classes>
+			<class name="com.execute.searchArticleTest">
+				<methods>
+
+					<include name="searchArticleForContentText1" />
+					<include name="searchArticleForContentText2" />
+					<include name="searchArticleForContentText3" />
+					<include name="searchArticleForContentText4" />
+					<include name="searchArticleForContentText5" />
+					<include name="searchArticleForContentText6" />
+					<include name="searchArticleForContentText7" />
+					<include name="searchArticleForContentText8" />
+					<include name="searchArticleForContentText9" />
+
+                    <include name="searchDecide1" />
+                    <include name="searchDecide2" />
+
+					<include name="searchArticleReadNumber" />
+					<include name="searchArticleTopList" />
+					<include name="searchArticleWeekList" />
+					<include name="searchArticleTowweekList" />
+					<include name="searchArticleMonthList" />
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<listeners>
+		<listener class-name="com.basic.RetryListener" />
+	</listeners>
+
+</suite> <!-- Suite -->
